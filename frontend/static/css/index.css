@@ -1,0 +1,33 @@
+
+
+body {
+  margin: 0 auto;
+  font-family: 'Quicksand', sand-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+.nav {
+  width: 20vw;
+  background: #222222;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  padding-top: 40px;
+}
+
+.nav__link {
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #eee;
+}
+
+#app {
+  margin: 0 0 0 20vw;
+  padding: 15px 30px;
+  background: #eee;
+  height: 100vh;
+}
